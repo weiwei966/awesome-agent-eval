@@ -219,6 +219,8 @@ What teams running agents at scale actually do — and the canonical evidence fo
 - [Agent评测漫谈](https://tech.meituan.com/2026/08/07/Agent-Evaluation.html) — 美团. The best Chinese-language production writeup: rubric binarization, 人机一致率 as the judge-alignment metric, and bad-case flywheels — independently converging on the Western canon.
 - [Data Agent 自动化评测的三层框架与实战](https://developer.volcengine.com/articles/7587631610258784307) — 字节/火山引擎. A three-tier automated eval framework for data agents in production, 中文实战视角.
 
+- [Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report](https://arxiv.org/abs/2608.15763) — TaoLive AIGC LLM Team. Documents judge calibration against human labels, frozen-weight harness-edit checks, and a full-system production A/B comparison in the authors' deployment.
+
 ## Reliability: Beyond pass@1
 
 The capability-reliability gap: an agent that *can* do a task and an agent that *dependably* does it are different agents, and pass@1 leaderboards can't tell them apart.
