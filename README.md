@@ -205,6 +205,7 @@ Grading the path, not just the answer. This frontier is *not* solved — the met
 - [LLM Evaluations Explained](https://langwatch.ai/blog/llm-evaluations-explained-experiments-online-evaluations-guardrails-and-when-to-use-each-in-2026) — The experiments / online evals / guardrails distinction, and when each applies — the taxonomy most teams conflate.
 - [nvidia/Open-SWE-Traces](https://huggingface.co/datasets/nvidia/Open-SWE-Traces) — Open corpus of real coding-agent trajectories — study how agents actually fail without burning your own tokens.
 - [thoughtworks/agentic-coding-trajectories](https://huggingface.co/datasets/thoughtworks/agentic-coding-trajectories) — Annotated real-world coding sessions; small, human-labeled, and good for calibrating your own error analysis.
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) — flik2002. Open-source (MIT) self-hosted dashboard that watches a running OpenClaw agent gateway over WebSocket JSON-RPC (sessions.list, cron.list, metrics.system, metrics.messages) and charts per-session token counts and 7-day message trends — a worked example of reading agent operational telemetry from the gateway API instead of inside the agent loop.
 
 ## Production Eval Loops
 
