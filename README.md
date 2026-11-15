@@ -91,6 +91,7 @@ The push to make evals a measurement discipline with construct validity and erro
 - [Don't Pass@k: A Bayesian Framework for Large Language Model Evaluation](https://arxiv.org/abs/2510.04265) — Credible intervals over pass rates at the small sample sizes agent evals actually run.
 - [Cost-of-Pass: An Economic Framework for Evaluating Language Models](https://arxiv.org/abs/2504.13359) — Makes dollars a first-class eval axis: what does one *successful* task completion cost?
 - [Measuring AI Ability to Complete Long Tasks](https://arxiv.org/abs/2503.14499) — METR. The time-horizon metric: score agents by the human-task-length they can complete, giving a single interpretable capability curve over time.
+- [agentstats](https://github.com/RishabhPande/agentstats) - Rishabh Pande. Shows how repeated agent/task/run outcomes change uncertainty estimates, pairwise comparisons and run-count planning, with run-aware tests and corrected comparisons.
 
 ## Benchmark Pathology & Repair
 
